@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "############################################"
-echo "Start ArcoLinux snapper cleanup"
+echo "Start SnigdhaLinux snapper cleanup"
 echo "############################################"
 
 if [ -f /usr/bin/snapper ]; then
@@ -13,8 +13,8 @@ fi
 
 echo
 echo "############################################"
-echo "End arcolinux-snapper"
+echo "End SnigdhaLinux-snapper"
 echo "############################################"
 echo
 
-rm -f /usr/local/bin/arcolinux-snapper
+rm -f /usr/local/bin/snigdha-snapper
