@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="arcolinuxs-zen"
-iso_label="arcolinuxs-zen-v24.01.04"
-iso_publisher="ArcoLinux <http://www.arcolinux.info>"
-iso_application="ArcoLinux Live/Rescue CD"
-iso_version="v24.01.04"
+iso_name="snigdhalinux-next"
+iso_label="snigdhalinux-next-zen"
+iso_publisher="SnigdhaLinux <http://www.snigdhaos.org>"
+iso_application="SnigdhaLinux Live/Rescue CD"
+iso_version="v1.1.0"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
@@ -23,5 +23,5 @@ file_permissions=(
   ["/etc/polkit-1/rules.d"]="0:0:750"
   ["/etc/sudoers.d"]="0:0:750"
   ["/etc/grub.d/40_custom"]="0:0:755"
-  ["/usr/local/bin/arcolinux-snapper"]="0:0:755"
+  ["/usr/local/bin/snigdha-snapper"]="0:0:755"
 )
